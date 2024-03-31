@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    box-sizing: border-box ;
+    background-color: rgb(205, 205, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part-1{
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7rem auto ;
+}
+.padding-div{
+    padding: 20px;
+}
+.padding-div2{
+    padding: 13px 20px 0 20px;
+}
+.card-1{
+    width: 650px;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    
+}
+.card-1 h3{
+    margin: 1rem;
+    color: rgb(2, 147, 155);
+}
+#des-1{
+    margin: 1rem;
+    color: hsl(71, 73%, 54%);
+    font-size: medium;
+}
+#par-1{
+    margin: 1rem;
+    line-height: 30px;
+    color: gray;
+    max-width: 500px;
+    font-size: 0.8rem;
+}
+
+.card-2{
+    width: 320px;
+    height: 16rem;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 16px;
+}
+.card-2 h3{
+    margin: 1.5rem 1rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+.card-2 span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-right: 1rem;
+}
+.card-2 p{
+    color: whitesmoke;
+    margin: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#price{
+    margin: 1rem;
+    font-size: 0.8rem;
+    color: rgba(245, 245, 245, 0.756);
+    
+}
+.card-2 button{
+    color:whitesmoke;
+    font-weight: 700;
+    margin: 1rem 3.5rem 2rem 19.5px;
+    border-radius: 5px;
+    border-color: hsl(71, 73%, 54%); 
+    background-color:hsl(71, 73%, 54%);
+    width: 100%;
+    padding: 0.5rem ;
+    max-width: 15rem;
+    cursor: pointer;
+    
+}
+.card-3{
+    width: 330px;
+    height: 16rem;
+    background-color: rgba(6, 172, 170, 0.734);
+    border-radius: 0 0 16px 0;
+}
+.card-3 h3{
+    margin: 1.5rem 1rem;
+    color: whitesmoke;
+    font-weight: 600;
+}
+#info-1{
+    font-weight: 400;
+    font-size: 102%;
+    font-stretch:narrower;
+}
+.card-3 p{
+    margin: 1rem;
+    color: rgba(245, 245, 245, 0.756);
+    max-width: 200px;
+}
+@media (max-width: 650px){
+    .part-1,.card-1,.card-2,.card-3{
+        width: 280px;
+    }
+    .card-1,.card-2,.card-3{
+        height: 260px 
+    }
+    .card-2 button{
+        width: 12rem;
+        margin: 15px 25px auto 25px; 
+    }
+    .card-2{
+        border-radius: 0;
+    }
+    .card-3{
+        border-radius: 0 0 16px 16px;
+    }
+}
